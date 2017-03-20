@@ -1,0 +1,18 @@
+{
+    "name": "andrewmontagne/localiser",
+    "description": "Localisation Library for PHP",
+    "type": "library",
+    "license": "BSD 3-Clause Licence",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Localiser\\": "src/main/php/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LocaliserTest\\": "src/test/php/"
+        }
+    }
+}
